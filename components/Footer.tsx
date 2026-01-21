@@ -48,23 +48,18 @@ export const Footer = () => {
                                 </Link>
                             </li>
                             <li className="group">
-                                <Link href="/about-us" className="text-slate-400 hover:text-white transition-colors flex items-center gap-2">
+                                <Link href="/about" className="text-slate-400 hover:text-white transition-colors flex items-center gap-2">
                                     <span className="h-1 w-1 bg-blue-600 rounded-full opacity-0 group-hover:opacity-100 transition-opacity" />
                                     About Us
                                 </Link>
                             </li>
                             <li className="group">
-                                <Link href="/#contact" className="text-slate-400 hover:text-white transition-colors flex items-center gap-2">
+                                <Link href="/contact" className="text-slate-400 hover:text-white transition-colors flex items-center gap-2">
                                     <span className="h-1 w-1 bg-blue-600 rounded-full opacity-0 group-hover:opacity-100 transition-opacity" />
                                     Contact Us
                                 </Link>
                             </li>
-                            <li className="group">
-                                <Link href="#" className="text-slate-400 hover:text-white transition-colors flex items-center gap-2">
-                                    <span className="h-1 w-1 bg-blue-600 rounded-full opacity-0 group-hover:opacity-100 transition-opacity" />
-                                    Services
-                                </Link>
-                            </li>
+
                         </ul>
                     </div>
 

@@ -5,7 +5,9 @@ import { Button } from "@/components/ui/button"
 import { ArrowRight, Target, Lightbulb } from "lucide-react"
 import Link from "next/link"
 
+
 export const About = () => {
+
     return (
         <section className="bg-white py-10 w-full relative overflow-hidden">
             {/* Background decoration */}
@@ -37,7 +39,7 @@ export const About = () => {
                         </p>
 
                         <div className="pt-4">
-                            <Link href="/about-us">
+                            <Link href="/about">
                                 <Button className="rounded-full cursor-pointer px-8 h-12 w-60 bg-blue-600 hover:bg-blue-700 text-white font-semibold group">
                                     MORE ABOUT US
                                     <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />

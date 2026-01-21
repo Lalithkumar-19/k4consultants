@@ -19,7 +19,7 @@ const services = [
         number: "01",
         title: "Website Design & Development",
         description: "We specialize in crafting cutting-edge websites that harmonize striking visuals with practical design, ensuring your online presence is not just visually stunning but also intuitive and user-focused. Whether for agile startups, expansive e-commerce ventures, or corporate titans, our tailored web solutions are designed to leave a lasting impression.",
-        link: "/services/web-design"
+        link: "/services/website-design-development"
     },
     {
         icon: Gem,
@@ -54,7 +54,7 @@ const services = [
         number: "06",
         title: "Android And IOS Development",
         description: "We deliver top-tier iOS and Android application development services. Our expert developers create robust, scalable, and user-friendly mobile applications tailored to meet the unique needs of startups and enterprises.",
-        link: "/services/app-development"
+        link: "/services/android-ios-development"
     }
 ]
 

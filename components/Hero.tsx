@@ -3,8 +3,10 @@
 import { Button } from "@/components/ui/button"
 import { motion } from "framer-motion"
 import Image from "next/image"
+import { useRouter } from "next/navigation"
 
 export const Hero = () => {
+    const router = useRouter();
     return (
         <section className="relative min-h-[90vh] mt-10 md:mt-0 w-full bg-[#eff6ff] overflow-hidden flex items-center">
             {/* Background decoration */}
@@ -61,10 +63,14 @@ export const Hero = () => {
                         transition={{ delay: 0.8, duration: 0.5 }}
                         className="flex flex-wrap gap-4 mt-2"
                     >
-                        <Button size="lg" className="bg-[#3b82f6] cursor-pointer hover:bg-[#2563eb] text-white rounded-full px-8 h-12 text-sm font-semibold shadow-blue-200 shadow-lg">
+                        <Button size="lg"
+                            onClick={() => router.push('/portfolio')}
+                            className="bg-[#3b82f6] cursor-pointer hover:bg-[#2563eb] text-white rounded-full px-8 h-12 text-sm font-semibold shadow-blue-200 shadow-lg">
                             OUR WORK
                         </Button>
-                        <Button size="lg" variant="outline" className="border-blue-200 cursor-pointer text-blue-600 hover:bg-blue-50 rounded-full px-8 h-12 text-sm font-semibold">
+                        <Button size="lg" variant="outline"
+                            onClick={() => router.push('/contact')}
+                            className="border-blue-200 cursor-pointer text-blue-600 hover:bg-blue-50 rounded-full px-8 h-12 text-sm font-semibold">
                             CONTACT NOW
                         </Button>
                     </motion.div>

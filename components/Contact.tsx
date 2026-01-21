@@ -123,7 +123,7 @@ export const Contact = () => {
                                 />
                             </div>
 
-                            <Button className="h-14 mt-2 bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-xl text-lg shadow-lg shadow-blue-600/20 w-full transition-all hover:scale-[1.02]">
+                            <Button className="cursor-pointer h-14 mt-2 bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-xl text-lg shadow-lg shadow-blue-600/20 w-full transition-all hover:scale-[1.02]">
                                 Send Message
                             </Button>
                         </form>

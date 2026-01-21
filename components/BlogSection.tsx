@@ -71,7 +71,7 @@ export const BlogSection = () => {
                                 </p>
 
                                 <Link href={`/blog/${post.slug}`} className="mt-auto">
-                                    <Button variant="link" className="p-0 h-auto text-blue-600 font-semibold group-hover:translate-x-1 transition-transform">
+                                    <Button variant="link" className="p-0 h-auto cursor-pointer text-blue-600 font-semibold group-hover:translate-x-1 transition-transform">
                                         Read More <ArrowRight className="ml-1 h-3 w-3" />
                                     </Button>
                                 </Link>
