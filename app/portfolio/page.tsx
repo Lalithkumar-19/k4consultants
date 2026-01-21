@@ -85,7 +85,7 @@ export default function PortfolioPage() {
                             className="inline-block"
                         >
                             <span className="bg-white px-4 py-1.5 rounded-full text-blue-600 text-xs font-bold tracking-wider shadow-sm border border-blue-100 uppercase">
-                                Business Services
+                                Our Services
                             </span>
                         </motion.div>
 
@@ -95,8 +95,8 @@ export default function PortfolioPage() {
                             transition={{ delay: 0.4, duration: 0.5 }}
                             className="text-4xl md:text-5xl lg:text-6xl font-bold text-slate-900 leading-[1.1]"
                         >
-                            Boost your digital presence with <br />
-                            <span className="text-slate-900">K4Consultants</span>
+                            Ideas That Turn Into Impactful Digital Products <br />
+                            {/* <span className="text-slate-900">K4Consultants</span> */}
                         </motion.h1>
 
                         <motion.div
@@ -106,11 +106,11 @@ export default function PortfolioPage() {
                             className="space-y-4"
                         >
                             <p className="text-lg font-semibold text-slate-500">
-                                Revolutionary Online Solutions | Strategic Brand Development | Dynamic Digital Marketing
+                                Crafted with purpose. Built for performance. Proven by results.
                             </p>
 
                             <p className="text-slate-500 leading-relaxed max-w-xl">
-                                Welcome to K4Consultants, where your vision converges with our innovation to forge digital experiences that yield impactful outcomes. As pioneers of the online landscape, we recognize that your digital impression serves as the primary introduction to your audience.
+                                We are a digital agency that specializes in crafting impactful digital products for our clients. Our team of experts uses the latest technology and tools to create products that are not only visually stunning but also functional and user-friendly.
                             </p>
                         </motion.div>
 
@@ -144,7 +144,7 @@ export default function PortfolioPage() {
                         {/* Main Illustration */}
                         <div className="relative w-full max-w-[600px] aspect-square">
                             <Image
-                                src="/hero.png"
+                                src="/team.png"
                                 alt="K4 Consultants Team"
                                 fill
                                 className="object-contain rounded-4xl"
@@ -162,10 +162,10 @@ export default function PortfolioPage() {
                                 className="absolute bottom-10 left-0 bg-white p-4 rounded-xl shadow-[0_20px_50px_rgba(0,0,0,0.1)] flex items-center gap-4 max-w-[240px]"
                             >
                                 <div className="bg-blue-50 p-2.5 rounded-lg">
-                                    <span className="text-blue-600 font-bold text-xl">15K</span>
+                                    <span className="text-blue-600 font-bold text-xl">45 +</span>
                                 </div>
                                 <div className="space-y-1.5 flex-1">
-                                    <p className="text-xs font-bold text-slate-900">Business Growth</p>
+                                    <p className="text-xs font-bold text-slate-900">Projects</p>
                                     <div className="h-1.5 w-full bg-slate-100 rounded-full overflow-hidden">
                                         <div className="h-full w-[80%] bg-blue-500 rounded-full" />
                                     </div>
